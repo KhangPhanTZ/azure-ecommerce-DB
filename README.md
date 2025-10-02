@@ -28,6 +28,7 @@ The system integrates multiple technologies to support an **E-Commerce platform*
 - **Azure Deployment**: cloud hosting for DB and cache
 
 ### Architecture Diagram
+```
 [User]
 │
 ▼
@@ -41,7 +42,7 @@ The system integrates multiple technologies to support an **E-Commerce platform*
 └──► [Azure Redis Cache] (sessions, cart, hot products)
 
 [PowerBI] ◄── [MySQL Database] (reporting & analytics)
-
+```
 *(diagram simplified for illustration)*
 
 ---
@@ -60,35 +61,33 @@ The system integrates multiple technologies to support an **E-Commerce platform*
 ---
 
 ## 📂 Repository Structure
+```
 .
-├─ docs/ # Reports, diagrams
-│ ├─ Final_report.pdf
-│ ├─ Bao_cao_quy_trinh_mua_hang.pdf
-│ ├─ ERD.png
-│ └─ arch-overview.png
+├─ docs/                    # Reports, diagrams
+│  ├─ Final_report.pdf
+│  ├─ ERD.png
+│  └─ ...
 │
-├─ sql/ # SQL scripts
-│ ├─ schema/ # create_table, FK, indexes
-│ ├─ seed/ # sample data
-│ ├─ Functions/
-│ ├─ Procedures/
-│ ├─ Triggers/
-│ └─ Views/
+├─ sql/                     # SQL scripts
+│  ├─ schema/              # create_table, FK, indexes
+│  ├─ seed/                # sample data
+│  ├─ Functions/
+│  ├─ Procedures/
+│  ├─ Triggers/
+│  └─ Views/
 │
-├─ src/redis_mysql/ # Python scripts for Redis + MySQL integration
-│ ├─ Cart.py
-│ ├─ Trending_products.py
-│ ├─ Remaining_login.py
-│ ├─ connect_close_db.py
-│ ├─ DigiCertGlobalRootG2.crt.pem
-│ └─ .env.example
+├─ src/redis_mysql/        # Python scripts for Redis + MySQL integration
+│  ├─ Cart.py
+│  ├─ Trending_products.py
+│  ├─ Remaining_login.py
+│  ├─ connect_close_db.py
+│  ├─ DigiCertGlobalRootG2.crt.pem
+│  └─ __pycache__/
 │
-├─ redis/ # Cache design
-│ ├─ session_cache.md
-│ ├─ cart_cache.md
-│ └─ hot_products.md
-│
-├─ design/ # UI mockups (Figma), PowerBI dashboards
+└─ design/                 # UI mockups (Figma), PowerBI dashboards
+   ├─ Figma/
+   └─ powerBI/
+```
 
 ## 📈 Business Intelligence Analysis (PowerBI)
 
