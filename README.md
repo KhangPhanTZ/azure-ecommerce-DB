@@ -1,6 +1,6 @@
 # azure-ecommerce-DB
 
-Academic project (IE103) : **E-Commerce database system** on Azure with **MySQL** backend, **Redis cache** for performance, **PowerBI** dashboards, and **Figma** design mockups.  
+Academic group project (IE103) : **E-Commerce database system** on Azure with **MySQL** backend, **Redis cache** for performance, **PowerBI** dashboards, and **Figma** design mockups.  
 ⚠️ This project is **archived** (Azure server has been shut down). Repo keeps **SQL scripts, Redis integration code, and documentation** for reference.
 
 ---
